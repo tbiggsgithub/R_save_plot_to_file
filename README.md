@@ -1,8 +1,9 @@
 # R_save_plot_to_file
 
-#  It's best to have the plot save to a file within your code, so you don't have to GUI click to get your 
-#  plots into eps or pdf format
+It's best to have the plot save to a file within your code, so you don't have to GUI click to get your 
+plots into eps or pdf format
 
+```R
 plot.to.file = 1  # Set to 0 if you're just testing how the plot looks in R.
 outdir.figs = "C:/directory/mythesis/figures/"  # Directory where to put the figures
 
